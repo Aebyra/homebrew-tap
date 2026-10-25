@@ -13,7 +13,7 @@ cask "blotch" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Blotch.app"
   binary "#{appdir}/Blotch.app/Contents/MacOS/blotch"
