@@ -1,8 +1,11 @@
 # Aebyra Homebrew tap
 
 ```bash
+brew trust aebyra/tap
 brew install --cask aebyra/tap/blotch
 ```
+
+`brew trust` is needed once: Homebrew 7 only loads casks from taps you've trusted.
 
 This installs Blotch.app into /Applications and links the `blotch` command line tool.
 
