@@ -1,6 +1,6 @@
 cask "blotch" do
   version "1.0.0"
-  sha256 "210ffacc7bd82a2c9fe82870c219d4f9eec7cc7362107659006162a3791682bf"
+  sha256 "2eecf15605536c82b830ca4395135c0d2911d16d1998a37e845f2db21eb80128"
 
   url "https://github.com/aebyra/blotch/releases/download/v#{version}/Blotch-#{version}.dmg"
   name "Blotch"
